@@ -1,6 +1,6 @@
 /* **** Partie à supprimer */ 
 header, section, footer {
-	border: solid 2px violet; 
+/*	border: solid 2px violet;  */
 }
 /* ---- Fin de la partie à supprimer */
 
@@ -122,23 +122,14 @@ HEADER -----------------------------------------------------------------
 	margin: 2em 0; 
 }
 
-.header-content nav {
-	width: 40%; 
-}
-
-
 .header-content ul {
 	list-style: none; 
 	display: flex; 
-	justify-content: space-around;
+	align-items: center;
 	height: 100%; 
 }
-.header-content ul li { 
-	margin: auto; 
-}
-.header-content ul li a {
-	padding: 1em; 
-}
+
+
 .header-content ul li a:hover {
 	color: #0065FC; 
 	border-top: solid 2px #0065FC; 
@@ -169,7 +160,7 @@ HEBERGEMENT --------------------------------------------------------------------
 */
 
 .hebergement-content {
-	border-radius: 20px; 
+	border-radius: 16px; 
 	background: #f2F2F2; 
 	padding: 2em; 
 }
@@ -181,18 +172,18 @@ HEBERGEMENT --------------------------------------------------------------------
 }
 
 .hebergement-content .hebergement-item {
-	border-radius: 20px; 
+	border-radius: 16px; 
 	background: white; 
 	border: 4px solid white; 
 	overflow: hidden; 
 	max-width: 360px; 
 	width: 30%; 
-	height: 180px; 
-	box-shadow: 1px 1px 24px rgba(0,0,0,0.2); 
+	height: 168px; 
+	box-shadow: 1px 1px 18px rgba(0,0,0,0.25); 
 	margin: 1em 0; 
 }
 .hebergement-content .image-container {
-	height: 110px; 
+	height: 100px; 
 	overflow: hidden;
 	display: flex;
 	align-items: center;
@@ -206,7 +197,7 @@ HEBERGEMENT --------------------------------------------------------------------
 	background: white; 
 	color: black; 
 	font-size: 0.85em; 
-	line-height: 1.2; 
+	line-height: 1.4; 
 }
 
 .hebergement-content .hebergement-infos .star-up {
